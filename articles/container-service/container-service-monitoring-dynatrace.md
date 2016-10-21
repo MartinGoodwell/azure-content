@@ -52,7 +52,7 @@ Next enter your API token into the Dynatrace OneAgent configuration within the D
 
 ![Dynatrace OneAgent configuration in the DC/OS Universe](./media/container-service-monitoring-dynatrace/dynatrace-config.png)
 
-Now set the instances to 10000000 so whenever a new node is added to the cluster Dynatrace will automatically deploy an agent to that new node.
+Now set the instances to the number of nodes you intend to run. Setting a higher number also works, but DC/OS will keep trying to find new instances until that number is actually reached. If you prefer, you can also set this to a value like 1000000, so whenever a new node is added to the cluster Dynatrace will automatically deploy an agent to that new node, at the price of DC/OS constantly trying to deploy further instances.
 
 ![Dynatrace configuration in the DC/OS Universe-instances](./media/container-service-monitoring-dynatrace/dynatrace-config2.png)
 
