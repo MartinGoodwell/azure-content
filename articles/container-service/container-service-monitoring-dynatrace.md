@@ -28,7 +28,7 @@ In this article, we will deploy the Dynatrace OneAgent to all the agent nodes in
 
 ## Dynatrace SaaS/Managed
 
-Dynatrace SaaS/Managed is a monitoring service that allows you to monitor your containers within your cluster. Dynatrace is known to help with troubleshooting but it also has your basic monitoring metrics for CPU, Networking, Memory, and I/O. Dynatrace makes it easy to see which containers are working the hardest or essentially using the most memory and CPU. This view is in the “Overview” section, which is currently in beta. 
+Dynatrace is cloud-native monitoring for highly dynamic container and cluster environments. Dynatrace allows you to better optimize your container deployments and memory allocations by using real-time usage data. Dynatrace is the only solution capable of automatically pinpointing application and infrastructure issues in seconds using artificial intelligence.
 
 ![Dynatrace UI](./media/container-service-monitoring-dynatrace/dynatrace.png) 
 
